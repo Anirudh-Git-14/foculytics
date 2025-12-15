@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FOCUSLYTICS</string>
+    <string name="focuslytics">FOCUSLYTICS</string>
+    <string name="analytics">Analytics</string>
+    <string name="usage">Usage</string>
+    <string name="focus">Focus</string>
+    <string name="productivity">Productivity</string>
+    <string name="settings">Settings</string>
+    <string name="logo_description">App Logo</string>
+</resources>
