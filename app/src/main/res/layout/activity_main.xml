@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     android:background="#05060A">
 
+    <!-- Header with Logo and App Name -->
     <LinearLayout
         android:id="@+id/header"
         android:layout_width="wrap_content"
@@ -38,6 +39,7 @@
             android:fontFamily="sans-serif-medium" />
     </LinearLayout>
 
+    <!-- Icon Row with 5 clickable buttons -->
     <LinearLayout
         android:id="@+id/iconRow"
         android:layout_width="0dp"
@@ -49,12 +51,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 
+        <!-- Analytics Button -->
         <LinearLayout
+            android:id="@+id/btnAnalytics"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:orientation="vertical"
-            android:gravity="center">
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true">
 
             <ImageView
                 android:layout_width="28dp"
@@ -70,12 +76,16 @@
                 android:layout_marginTop="6dp" />
         </LinearLayout>
 
+        <!-- Usage Button -->
         <LinearLayout
+            android:id="@+id/btnUsage"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:orientation="vertical"
-            android:gravity="center">
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true">
 
             <ImageView
                 android:layout_width="28dp"
@@ -91,12 +101,16 @@
                 android:layout_marginTop="6dp" />
         </LinearLayout>
 
+        <!-- Focus Button -->
         <LinearLayout
+            android:id="@+id/btnFocus"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:orientation="vertical"
-            android:gravity="center">
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true">
 
             <ImageView
                 android:layout_width="38dp"
@@ -113,12 +127,16 @@
                 android:textStyle="bold" />
         </LinearLayout>
 
+        <!-- Productivity Button -->
         <LinearLayout
+            android:id="@+id/btnProductivity"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:orientation="vertical"
-            android:gravity="center">
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true">
 
             <ImageView
                 android:layout_width="28dp"
@@ -134,12 +152,16 @@
                 android:layout_marginTop="6dp" />
         </LinearLayout>
 
+        <!-- Settings Button -->
         <LinearLayout
+            android:id="@+id/btnSettings"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:orientation="vertical"
-            android:gravity="center">
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true">
 
             <ImageView
                 android:layout_width="28dp"
